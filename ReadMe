@@ -1,3 +1,4 @@
+
 How the script works:
 User Input:
 
@@ -18,3 +19,34 @@ Termination:
 
 The process continues until the package reaches its final checkpoint (destination).
 Once the last checkpoint is reached, the script prints a message that tracking is complete.
+
+
+Enter the number of checkpoints: 3
+Enter name of checkpoint 1: Warehouse A
+Enter name of receiver at Warehouse A: John Doe
+Enter the date when package reached Warehouse A (YYYY-MM-DD): 2025-01-10
+Enter name of checkpoint 2: Hub B
+Enter name of receiver at Hub B: Alice Smith
+Enter the date when package reached Hub B (YYYY-MM-DD): 2025-01-11
+Enter name of checkpoint 3: Final Destination
+Enter name of receiver at Final Destination: Bob Johnson
+Enter the date when package reached Final Destination (YYYY-MM-DD): 2025-01-12
+
+Package Tracking Started...
+
+Arriving at Warehouse A...
+Receiver: John Doe
+Arrival Date: 2025-01-10
+Time of Arrival: 2025-01-15 10:32:45
+
+Arriving at Hub B...
+Receiver: Alice Smith
+Arrival Date: 2025-01-11
+Time of Arrival: 2025-01-16 10:32:45
+
+Arriving at Final Destination...
+Receiver: Bob Johnson
+Arrival Date: 2025-01-12
+Time of Arrival: 2025-01-17 10:32:45
+
+Package has reached its final destination. Tracking Complete.
