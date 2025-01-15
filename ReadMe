@@ -1,0 +1,20 @@
+How the script works:
+User Input:
+
+The script first asks for the number of checkpoints.
+Then, for each checkpoint, the user is asked to provide:
+The name of the checkpoint.
+The name of the receiver.
+The date when the package reached that checkpoint.
+Package Movement:
+
+The package starts from the first checkpoint and moves to the next one.
+For each checkpoint:
+The receiver’s name and the date when the package reached there are displayed.
+The current time and date are shown as if the package has just arrived at that checkpoint.
+There is a simulated time delay of 2 seconds (time.sleep(2)) to mimic real-time tracking.
+The package’s next checkpoint arrival time is incremented by one day for simplicity.
+Termination:
+
+The process continues until the package reaches its final checkpoint (destination).
+Once the last checkpoint is reached, the script prints a message that tracking is complete.
